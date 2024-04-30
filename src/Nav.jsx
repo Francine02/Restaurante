@@ -19,7 +19,6 @@ export function Nav() {
           <input id="op-drinks" type="radio" name="op-menu" class="w-4 h-4"/>
           <label htmlFor="op-drinks" class="ms-2 text-lg">Bebidas</label>
         </div>
-
     </div>
   )
 }
