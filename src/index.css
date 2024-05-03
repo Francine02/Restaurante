@@ -5,3 +5,7 @@
 html {
     font-family: "Merriweather", serif;
 }
+
+#item {
+    grid-auto-flow: row;
+}

@@ -7,7 +7,7 @@ import comb4 from "./img/Combs/combinado-4.webp";
 //hots
 import guioza from "./img/Hot/guioza.jpg";
 import hot from "./img/Hot/hot-roll.jpg";
-import lamen from "src/img/Hot/lamen.jpg";
+import lamen from "./img/Hot/lamen.jpg";
 import yaki from "./img/Hot/yakissoba.jpg";
 
 //bebidas
@@ -18,30 +18,30 @@ import juiceOrange from "./img/Drinks/orange.webp";
 //Combos - criação de lista
 const combinado1 = {
     nome: "Combinado 1",
-    preco: "129,9",
+    preco: "129,90",
     imagem: comb1, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum corrupti reprehenderit eum ullam deleniti. Ratione repellat fugiat ad amet eum quidem culpa rem deserunt, autem magnam ipsam itaque consequatur!"
+    sobre: "Uma experiência gastronômica única, criada pelo talento e criatividade dos nossos chefs, este combinado oferece uma mistura surpreendente de sabores e texturas, com rolos exclusivos e combinações inovadoras que desafiam as expectativas."
 }
 
 const combinado2 = {
     nome: "Combinado 2",
-    preco: "189,9",
+    preco: "189,90",
     imagem: comb2, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum corrupti reprehenderit eum ullam deleniti."
+    sobre: "Uma seleção cuidadosamente elaborada dos clássicos favoritos da culinária japonesa, apresentando uma variedade de nigiri, sashimi e rolos de sushi, cada um ressaltando o frescor e a qualidade dos ingredientes."
 }
 
 const combinado3 = {
     nome: "Combinado 3",
-    preco: "209,9",
+    preco: "209,90",
     imagem: comb3, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum corrupti reprehenderit eum ullam deleniti. Ratione repellat fugiat ad amet eum quidem culpa rem deserunt, autem magnam ipsam itaque consequatur! Ratione repellat fugiat ad amet eum quidem culpa rem deserunt, autem magnam ipsam itaque consequatur!"
+    sobre: "Para os apreciadores mais exigentes, este combinado apresenta uma seleção dos melhores cortes de peixe fresco, cuidadosamente escolhidos à mão, combinados com arroz delicadamente temperado e envoltos em algas crocantes, garantindo uma experiência de sushi verdadeiramente luxuosa."
 }
 
 const combinado4 = {
     nome: "Combinado 4",
-    preco: "59,9",
+    preco: "59,90",
     imagem: comb4, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+    sobre: "Introduzindo os iniciantes ao maravilhoso mundo do sushi, este combo é cuidadosamente elaborado para oferecer uma experiência suave e acessível."
 }
 
 export const combosSushi = [
