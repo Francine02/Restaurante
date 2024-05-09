@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 html {
-    font-family: "Merriweather", serif;
+    font-family: "Noto Serif", serif;
+    font-style: normal;
 }
 
-#item {
-    grid-auto-flow: row;
+.bg {
+    background-image: url("./img/background-freepik.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

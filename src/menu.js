@@ -56,28 +56,28 @@ const guio = {
     nome: "Guioza",
     preco: "24,99",
     imagem: guioza, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    sobre: "Prato típico da culinária chinesa, a guioza é feita de recheio de carne moída ou de legumes que vai dentro de uma massa fina, selada pelas extremidades (exatamente como um pastel), e que é, enfim, cozida ou frita."
 }
 
 const hotRoll = {
     nome: "Hot Roll",
     preco: "14,99",
     imagem: hot, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    sobre: "O hot roll (ou simplesmente hot) ou sushi empanado é um alimento abrasileirado da culinária japonesa, do tipo maki (sushi enrolado), feito com peixe, normalmente salmão ou atum, enrolados com arroz em nori, uma alga marinha."
 }
 
 const lame = {
     nome: "Lamen",
     preco: "44,99",
     imagem: lamen, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum corrupti reprehenderit eum ullam deleniti."
+    sobre: "Um prato de ramen normalmente é composto por um tipo de macarrão chinês, uma sopa com caldo à base de ossos de porco, peixe ou frango, e temperados com uma base tarê."
 }
 
 const yak = {
     nome: "Yakissoba",
     preco: "34,99",
     imagem: yaki, 
-    sobre: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum corrupti reprehenderit eum ullam deleniti."
+    sobre: "Sōsu yakissoba, também conhecido por yakisoba, é um prato de origem japonesa, cujo nome significa, literalmente, macarrão de sobá frito."
 }
 
 export const quentes = [

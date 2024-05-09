@@ -1,35 +1,26 @@
-import { ItemMenu } from "./ItemMenu";
-import { combosSushi, beb, quentes } from "./menu";
-
-export function Nav() {
-  const pagNav = [combosSushi, beb, quentes];
-  const paginacao = 0;
-
+export function Nav(props) {
   return (
-    <div className="bg-black text-center text-white pt-20">
-      <p className="font-semibold md:text-4xl text-md text-white" id="title">MENU:</p>
-      
-      <div className="flex justify-center mt-5">
-        <div className="ml-5">
-          <input id="op-combos" type="radio" name="op-menu" className="w-4 h-4" defaultChecked/>
-          <label htmlFor="op-combos" className="ms-2 text-lg">Combos</label>
-        </div>
+    <>
+      <p className="font-semibold lg:text-7xl text-4xl text-white" id="title">-Menu-</p>
+      <div className="grid py-12 place-items-center">
+        <div className="grid grid-cols-3 rounded-xl bg-[#1B1C20]">
+            <div>
+                <input type="radio" id="op-combos" name="op-menu" className="peer hidden" defaultChecked onClick={() => props.mudarPag(0)}/>
+                <label htmlFor="op-combos" className="block cursor-pointer select-none rounded-xl p-4 text-center md:text-xl peer-checked:bg-[#383838] peer-checked:font-bold peer-checked:text-white">Combos</label>
+            </div>
 
-        <div className="ml-5">
-          <input id="op-hots" type="radio" name="op-menu" className="w-4 h-4"/>
-          <label htmlFor="op-hots" className="ms-2 text-lg">Quentes</label>
-        </div>
+            <div>
+                <input type="radio" id="op-hots" name="op-menu" className="peer hidden" onClick={() => props.mudarPag(1)}/>
+                <label htmlFor="op-hots" className="block cursor-pointer select-none rounded-xl p-4 text-center md:text-xl peer-checked:bg-[#383838] peer-checked:font-bold peer-checked:text-white">Quentes</label>
+            </div>
 
-        <div className="ml-5">
-          <input id="op-drinks" type="radio" name="op-menu" className="w-4 h-4"/>
-          <label htmlFor="op-drinks" className="ms-2 text-lg">Bebidas</label>
+            <div>
+                <input type="radio" id="op-drinks" name="op-menu" className="peer hidden" onClick={() => props.mudarPag(2)}/>
+                <label htmlFor="op-drinks" className="block cursor-pointer select-none rounded-xl p-4 text-center md:text-xl peer-checked:bg-[#383838] peer-checked:font-bold peer-checked:text-white">Bebidas</label>
+            </div>
         </div>
       </div>
-
-      <div className="grid lg:grid-cols-2 md:px-20 px-3 py-2 mt-5 gap-10"> 
-        {pagNav[paginacao].map(produto => <ItemMenu imagem={produto.imagem} nome={produto.nome} sobre={produto.sobre} preco={produto.preco}/>)}
-      </div>
-    </div>
+    </>
   )
 }
   
