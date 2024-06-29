@@ -19,7 +19,7 @@ import juiceOrange from "./img/Drinks/orange.webp";
 const combinado1 = {
     id: 1,
     nome: "Combinado 1",
-    preco: "129,90",
+    preco: "129,00",
     imagem: comb1, 
     sobre: "Uma experiência gastronômica única, criada pelo talento e criatividade dos nossos chefs, este combinado oferece uma mistura surpreendente de sabores e texturas, com rolos exclusivos e combinações inovadoras que desafiam as expectativas."
 }
@@ -27,7 +27,7 @@ const combinado1 = {
 const combinado2 = {
     id:2,
     nome: "Combinado 2",
-    preco: "189,90",
+    preco: "189,00",
     imagem: comb2, 
     sobre: "Uma seleção cuidadosamente elaborada dos clássicos favoritos da culinária japonesa, apresentando uma variedade de nigiri, sashimi e rolos de sushi, cada um ressaltando o frescor e a qualidade dos ingredientes."
 }
@@ -35,7 +35,7 @@ const combinado2 = {
 const combinado3 = {
     id:3,
     nome: "Combinado 3",
-    preco: "209,90",
+    preco: "209,00",
     imagem: comb3, 
     sobre: "Para os apreciadores mais exigentes, este combinado apresenta uma seleção dos melhores cortes de peixe fresco, cuidadosamente escolhidos à mão, combinados com arroz delicadamente temperado e envoltos em algas crocantes, garantindo uma experiência de sushi verdadeiramente luxuosa."
 }
@@ -43,7 +43,7 @@ const combinado3 = {
 const combinado4 = {
     id:4,
     nome: "Combinado 4",
-    preco: "59,90",
+    preco: "59,00",
     imagem: comb4, 
     sobre: "Introduzindo os iniciantes ao maravilhoso mundo do sushi, este combo é cuidadosamente elaborado para oferecer uma experiência suave e acessível."
 }
@@ -59,7 +59,7 @@ export const combosSushi = [
 const guio = {
     id:5,
     nome: "Guioza",
-    preco: "24,99",
+    preco: "26,00",
     imagem: guioza, 
     sobre: "Prato típico da culinária chinesa, a guioza é feita de recheio de carne moída ou de legumes que vai dentro de uma massa fina, selada pelas extremidades (exatamente como um pastel), e que é, enfim, cozida ou frita."
 }
@@ -67,7 +67,7 @@ const guio = {
 const hotRoll = {
     id:6,
     nome: "Hot Roll",
-    preco: "14,99",
+    preco: "16,00",
     imagem: hot, 
     sobre: "O hot roll (ou simplesmente hot) ou sushi empanado é um alimento abrasileirado da culinária japonesa, do tipo maki (sushi enrolado), feito com peixe, normalmente salmão ou atum, enrolados com arroz em nori, uma alga marinha."
 }
@@ -75,7 +75,7 @@ const hotRoll = {
 const lame = {
     id:7,
     nome: "Lamen",
-    preco: "44,99",
+    preco: "43,00",
     imagem: lamen, 
     sobre: "Um prato de ramen normalmente é composto por um tipo de macarrão chinês, uma sopa com caldo à base de ossos de porco, peixe ou frango, e temperados com uma base tarê."
 }
@@ -83,7 +83,7 @@ const lame = {
 const yak = {
     id:8,
     nome: "Yakissoba",
-    preco: "34,99",
+    preco: "34,00",
     imagem: yaki, 
     sobre: "Sōsu yakissoba, também conhecido por yakisoba, é um prato de origem japonesa, cujo nome significa, literalmente, macarrão de sobá frito."
 }
