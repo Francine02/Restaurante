@@ -1,7 +1,7 @@
 export function Nav(props) {
   return (
     <>
-      <p className="font-semibold lg:text-7xl text-4xl text-white" id="title">-Menu-</p>
+      <p className="font-semibold text-4xl md:text-5xl lg:text-6x1 text-white pt-12 lg:pt-1" id="title">-Menu-</p>
       <div className="grid py-12 place-items-center">
         <div className="grid grid-cols-3 rounded-xl bg-[#1B1C20]">
             <div>

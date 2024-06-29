@@ -17,6 +17,7 @@ import juiceOrange from "./img/Drinks/orange.webp";
 
 //Combos - criação de lista
 const combinado1 = {
+    id: 1,
     nome: "Combinado 1",
     preco: "129,90",
     imagem: comb1, 
@@ -24,6 +25,7 @@ const combinado1 = {
 }
 
 const combinado2 = {
+    id:2,
     nome: "Combinado 2",
     preco: "189,90",
     imagem: comb2, 
@@ -31,6 +33,7 @@ const combinado2 = {
 }
 
 const combinado3 = {
+    id:3,
     nome: "Combinado 3",
     preco: "209,90",
     imagem: comb3, 
@@ -38,6 +41,7 @@ const combinado3 = {
 }
 
 const combinado4 = {
+    id:4,
     nome: "Combinado 4",
     preco: "59,90",
     imagem: comb4, 
@@ -53,6 +57,7 @@ export const combosSushi = [
 
 //Quentes - criação de lista
 const guio = {
+    id:5,
     nome: "Guioza",
     preco: "24,99",
     imagem: guioza, 
@@ -60,6 +65,7 @@ const guio = {
 }
 
 const hotRoll = {
+    id:6,
     nome: "Hot Roll",
     preco: "14,99",
     imagem: hot, 
@@ -67,6 +73,7 @@ const hotRoll = {
 }
 
 const lame = {
+    id:7,
     nome: "Lamen",
     preco: "44,99",
     imagem: lamen, 
@@ -74,6 +81,7 @@ const lame = {
 }
 
 const yak = {
+    id:8,
     nome: "Yakissoba",
     preco: "34,99",
     imagem: yaki, 
@@ -89,18 +97,21 @@ export const quentes = [
 
 //Bebidas - criação de lista
 const cocaCola = {
+    id:9,
     nome: "Coca Cola",
     preco: "10,00",
     imagem: coca
 }
 
 const sucoLe = {
+    id:10,
     nome: "Suco de limão",
     preco: "10,00",
     imagem: juiceLemon
 }
 
 const sucoLa = {
+    id:11,
     nome: "Suco de laranja",
     preco: "10,00",
     imagem: juiceOrange
