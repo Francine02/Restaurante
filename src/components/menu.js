@@ -1,19 +1,19 @@
 //combos
-import comb1 from "./img/Combs/combinado-1.jpg";
-import comb2 from "./img/Combs/combinado-2.jpg";
-import comb3 from "./img/Combs/combinado-3.jpg";
-import comb4 from "./img/Combs/combinado-4.webp";
+import comb1 from "../img/Combs/combinado-1.jpg";
+import comb2 from "../img/Combs/combinado-2.jpg";
+import comb3 from "../img/Combs/combinado-3.jpg";
+import comb4 from "../img/Combs/combinado-4.webp";
 
 //hots
-import guioza from "./img/Hot/guioza.jpg";
-import hot from "./img/Hot/hot-roll.jpg";
-import lamen from "./img/Hot/lamen.jpg";
-import yaki from "./img/Hot/yakissoba.jpg";
+import guioza from "../img/Hot/guioza.jpg";
+import hot from "../img/Hot/hot-roll.jpg";
+import lamen from "../img/Hot/lamen.jpg";
+import yaki from "../img/Hot/yakissoba.jpg";
 
 //bebidas
-import coca from "./img/Drinks/cocacola.webp";
-import juiceLemon from "./img/Drinks/lemon.jpg";
-import juiceOrange from "./img/Drinks/orange.webp";
+import coca from "../img/Drinks/cocacola.webp";
+import juiceLemon from "../img/Drinks/lemon.jpg";
+import juiceOrange from "../img/Drinks/orange.webp";
 
 //Combos - criação de lista
 const combinado1 = {

@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
-import logo from "./img/icon.ico";
-import cart from "./img/cart.png";
+import logo from "../img/icon.ico";
+import cart from "../img/cart.png";
 import { Carrinho } from "./Carrinho";
 
-export function TelaInicio({ addCarrinho, setIsCarrinhoOpen, isCarrinhoOpen }) {
-    const openCar = () => {
+export function TelaInicio({ addCarrinho, setIsCarrinhoOpen, isCarrinhoOpen }) { //Recebe do "App.jsx" as funções. "addCarrinho" é o array com os itens do carrinho. As outras childrens se referem ao funcionamento de abrir e fechar o Carrinho.
+    const openCar = () => { //Função para mudar o status do carrinho que estava false e abrir ele
         setIsCarrinhoOpen(true);
     };
 
-    const closeCar = () => {
+    const closeCar = () => { //Aqui faz ao contrário e fecha o carrinho.
         setIsCarrinhoOpen(false);
     };
 
@@ -20,11 +19,11 @@ export function TelaInicio({ addCarrinho, setIsCarrinhoOpen, isCarrinhoOpen }) {
                     
                     <div className="flex py-3">
                         <p className="text-red-500 font-bold text-x1">{addCarrinho.length}</p>
-                        <button onClick={openCar}><img src={cart} alt="carrinho" className="w-8 h-8"/></button>
+                        <button onClick={openCar}><img src={cart} alt="carrinho" className="w-8 h-8"/></button> {/* Aqui ao clicar o estado do carrinho é alterado para ele abrir. */}
                     </div>
                 </div>
 
-                {isCarrinhoOpen && <Carrinho onClose={closeCar} car={addCarrinho} />}
+                {isCarrinhoOpen && <Carrinho onClose={closeCar} car={addCarrinho} />}  {/* Aqui o componente "Carrinho" é renderizado somente se "isCarrinhoOpen" for true. Passando as props "onClose" e "car", com o seu elemento para o Carrinho */}
             </header>
 
             <div className="py-44 px-8 md:px-16">

@@ -1,6 +1,6 @@
-import cart from "./img/cart.png"
+import cart from "../img/cart.png"
 
-export function ItemMenu({ addItemToCart, ...props}) {
+export function ItemMenu({ addItemToCart, ...props}) { //Recebe do pai "App.jsx" a children "addItemToCart". Ela é chamada quando o botão dentro do componente "ItemMenu" é clicado. 
 
   return (
     <div className="w-full h-full max-h-[40rem] flex flex-col pb-10">
@@ -15,7 +15,7 @@ export function ItemMenu({ addItemToCart, ...props}) {
           <div className="flex justify-between items-end"> 
             <p className="mb-2 text-2x1 text-[#EC4E35]">R${props.preco}</p>
             <a className="inline-flex items-center px-3 py-2 text-white rounded-lg focus:outline-none hover:bg-[#ec4d35c5] bg-[#EC4E35] cursor-pointer">
-              <button onClick={() => addItemToCart(props.imagem, props.id, props.preco, props.nome)}><img src={cart} alt="Ícone do carrinho de compras" className="w-6 lg:w-10"/></button>
+              <button onClick={() => addItemToCart(props.imagem, props.id, props.preco, props.nome)}><img src={cart} alt="Ícone do carrinho de compras" className="w-6 lg:w-10"/></button> {/* Ao clicar no botão, recebe como argumentos várias props do próprio "ItemMenu", para adicionar o item ao carrinho.*/}
             </a>
           </div>
         </div>
